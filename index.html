@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi pagina de articulos</title>
+<link rel="alternate" type="application/rss+xml" title="Feed RSS" href="ruta/al/feed/rss">
+    <link rel="alternate" type="application/atom+xml" title="Feed Atom" href="ruta/al/feed/atom">
+    <style>
+         body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;}
+            article {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Mi página de artículos</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#articulo1">Artículo 1</a></li>
+                <li><a href="#articulo2">Artículo 2</a></li>
+                <li><a href="#articulo3">Artículo 3</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article id="articulo1">
+                <h2>Artículo 1</h2>
+                <p>Texto del artículo 1...</p>
+            </article>
+            <article id="articulo2">
+                <h2>Artículo 2</h2>
+                <p>Texto del artículo 2...</p>
+            </article>
+            <article id="articulo3">
+                <h2>Artículo 3</h2>
+                <p>Texto del artículo 3...</p>
+            </article>
+        </main>
+    </body>
+</html>
